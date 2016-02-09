@@ -19,7 +19,7 @@ This file contains the instructions to use run_analysis.R script:
 * meanData.txt: it includes a data set of 180 observations and 68 variables. In this case, the 66 measures are the average of each variable for each activity and each subject.
 
 
-6. Finally, type the following two instructions in RStudio to read the two requested
+66. Finally, type the following two instructions in RStudio to read the two requested
 data sets:
 
 * mergedData <- read.table("mergedData.txt”)
