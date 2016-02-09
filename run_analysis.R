@@ -112,7 +112,7 @@ meanData <- as.data.frame(meanData)
 colnames(meanData) <- colnames(mergedData) # It passes names of variables from mergedData
 # to the new empty data frame
 
-## Crating a loop function to fill the empty data frame:
+## Crating a for loop function to fill the empty data frame:
 
 row <- 1
 for(i in 1:subjectNum) { # The loop function goes from subject 1 to 30
