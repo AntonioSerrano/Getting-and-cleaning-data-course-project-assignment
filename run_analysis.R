@@ -97,6 +97,8 @@ write.table(mergedData, "mergedData.txt")
 ## 6. Creating a second, independent tidy data set with the average of each variable
 # for each activity and each subject:
 
+## Calculating dimensions of the new data set:
+
 subjectNum <- length(table(joinSubject)) # 30. It counts the total number of subjects
 # in the experiment
 activityNum <- dim(activity)[1] # 6. It counts the types of activities in the
