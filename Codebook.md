@@ -1,6 +1,4 @@
-# CODEBOOK FOR GETTING AND CLEANING DATA COURSE PROJECT ASSIGNMENT
-
-### by Antonio Serrano (February 2016)
+# CODEBOOK
 
 This codebook describes data, variables and steps that has been taken to clean the data and obtain the two requested data sets:
 
