@@ -138,6 +138,6 @@ for(i in 1:subjectNum) { # The loop function goes from subject 1 to 30
 # library(plyr)
 # meanData2 <- arrange(meanData2, subject, activity)
 
-## Storing the result in a txt file:
+## Storing the resulting data frame in a txt file:
 
 write.table(meanData, "meanData.txt")
