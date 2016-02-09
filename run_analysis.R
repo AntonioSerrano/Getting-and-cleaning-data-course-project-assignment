@@ -141,3 +141,7 @@ for(i in 1:subjectNum) { # The loop function goes from subject 1 to 30
 ## Storing the resulting data frame in a txt file:
 
 write.table(meanData, "meanData.txt")
+
+## Setting row.name=FALSE to submit assignment to Coursera:
+
+write.table(meanData, "meanData.txt", row.name=FALSE)
